@@ -12,10 +12,13 @@ exports.config = {
         script: 60000,
       },
       windowSize: '1400x900',
-    }
+    },
+    InitHelper: {
+      require: './init_helper.js',
+    },
   },
   include: {
-    I: './steps_file.js',
+    CS: './custom_steps.js',
   },
   bootstrap: null,
   mocha: {
