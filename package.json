@@ -1,0 +1,19 @@
+{
+  "name": "toqomo-demo",
+  "version": "1.0.0",
+  "description": "toqomo-demo",
+  "main": "codecept.conf.js",
+  "bin": {},
+  "dependencies": {
+    "codeceptjs": "^2.1.3",
+    "mochawesome": "^3.1.2",
+    "webdriverio": "^5.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "codeceptjs run",
+    "test_mocha": "codeceptjs run --reporter mochawesome"
+  },
+  "author": "ipozhidaev",
+  "license": "ISC"
+}
