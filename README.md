@@ -23,6 +23,7 @@ Run selenium
 ```bash
 selenium-standalone start
 ```
+![mochawesome report](run.png)
 Next within other tab from project folder 
 ```bash
 yarn test
@@ -31,3 +32,5 @@ or if you'd like mochawesome report
 ```bash
 yarn test_mocha
 ```
+The report will save to output/mochawesome.html
+![mochawesome report](toqomo_report_mocha.png)
